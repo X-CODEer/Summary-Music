@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin:0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+#all{
+    text-align: center;
+    width: 450px;
+    margin: 3rem auto;
+}
+
+.all{
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    height: 640px;
+    border-radius: 20px;
+}
+
+.main svg{
+    border-radius: 20px 20px 0 0;
+}
+body{
+    background-color: #e0e8ff;
+    overflow: hidden;
+
+}
+
+.below-img{
+    border-radius: 0 0 20px 20px;
+    margin: 2rem;
+}
+
+.text-belowimg h2{
+    color: #1f2f56;
+    font-weight: 900;
+}
+
+.text-belowimg p{
+    color: #7280a7;
+    margin: 1rem;
+}
+
+.below-text-content{
+    background-color: #b9c9f333;
+    border-radius: 10px;
+    margin: O auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.music-icon{
+    padding-right: 1.3rem;
+}
+
+.content-text{
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.annual-plan h4{
+    color: #1f2f56;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.annual-plan{
+    padding-right: 5.7rem;
+}
+
+.price{
+    color: #7280a7;
+}
+
+.change a{
+    color: #2f0997;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.change a:hover{
+    color: #5a52bd;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.payment-cancel{
+    padding-top: 30px;
+}
+
+.cancel{
+    padding-top: 22px;
+}
+
+.cancel a{
+    font-weight: 800;
+    color: #7280a7;
+}
+
+.cancel a:hover{
+    font-weight: 800;
+    color: #1f2f56;
+}
+
+button {
+    cursor: pointer;
+    background-color: #3829e0;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 1rem;
+    width: 354px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow:
+    0px 1px 3.9px -9px rgba(0, 0, 0, 0.141),
+    0px 3.4px 13px -9px rgba(0, 0, 0, 0.209),
+    0px 15px 58px -9px rgba(0, 0, 0, 0.35)
+  ;
+}
+
+button:hover{
+    background-color: #5a52bd;
+    box-shadow:
+    0px 1px 3.9px -9px rgba(0, 0, 0, 0.141),
+    0px 3.4px 13px -9px rgba(0, 0, 0, 0.209),
+    0px 15px 58px -9px rgba(0, 0, 0, 0.35)
+  ;
+}
